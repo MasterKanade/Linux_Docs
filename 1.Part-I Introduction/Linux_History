@@ -1,0 +1,15 @@
+First Unix has developed and it was developed by Denis Ritchie and Ken Thompson's in AT&T Lab in the year 1967.
+The Linux developed in the year 1900 by Linus Benedict Torvalds. Linux os was also clone of Unix operating system. The macosx and linux derived from the Unix. Microsoft is exceptional.
+The linux was accidentally developed by Linus Torvald as a fun by using Minix. Minix was UNIX-like operating system that ran on PCs in the early 1990s.
+Unix was written in C language, C lanaguge was primary lanaguge used to create the Unix and (Linux) operating systems Kernels.
+POSIX (portable operating system interface) and UNIX AT&T system SVID (interface definition) were used to create UNIX operating system. Those roadmaps also served as cration of Linux.
+In 1984 the GNU Richard M Stallman started the GNU project. It's a recursive phrase GNU is not UNIX. It is a re-coding of an entire UNIX operating system as a project by FSF (Free software foundation). GNU and UNIX is different. GNU re-coded the Unix except Kernel, GNU can't implemented the KERNEL. The Linux implemented kernel that's why it is different from UNIX.
+The free software foundation then replaced by the open source software. Open source software is promoted by the open source Initiative.
+Today Linux can be described as an open-source UNIX like operating system that reflects combination of SVID (AT&T service interface definition),POSIX(Portable operating system interface) and BSD (Berkeley software distribution) with it's own kernel.
+Open-source creted two many distribution of linux to meet special needs. However, two major distributions become foundation for many other distributions:
+
+1.  Red-hat Linux and 2. Debian
+
+Fedora is free cutting edge linux distribution supported by RHEL.
+
+Ubuntu, kali-linux, linux-mint, elementry os,Zorion os and many others are debian based distributions. Ubuntu is most successful distribution of Debian.
