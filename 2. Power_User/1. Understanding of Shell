@@ -60,3 +60,18 @@ The locate command looks all over your fi lesystem, not just in directories that
 contain commands.
 
 #########################################################################################
+
+History command:
+$ history command will show the history of typed commands with respective unique id
+
+$ !382 : will execute the command which has the 382 unique_id
+
+$ !! : It will execute the previous command
+
+$ !$ : runs command containing string for example: !$dat? it will run the date command.
+
+#########################################################################################
+
+Metacharacters:
+A metacharacter is a typed character that has
+special meaning to the shell for connecting commands or requesting expansion.
