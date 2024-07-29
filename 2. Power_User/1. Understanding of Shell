@@ -1,0 +1,62 @@
+Before GUI the program used to interpret and manage commands was referred as the shell.
+BASH stands for Bourne again shell the name derived from Bourne shell compatible with earliest UNIX shell. (It was named after its creator Stephen Bourne).
+BSD - has c-shell (csh) popular among BSD UNIX users. 
+KSH - korn shell (ksh) popular among BSD V users.
+Dash - ubuntu uses Dash shell, by default which is desigend to defer faster than BASH shell
+tsch - improved C shell and an ash shell.
+
+The default prompt for the regular user is $ symbol.
+The default prompt for the root user is a pound sign (also called has mark.) # symbol.
+
+How to check your shell?
+1. type : who am i or who to get the user_name
+2. grep user_name /etc/passwd (it will show in the result at last which shell it is)
+
+$ date : without option will tell you the simple date: Mon Jul 29 12:58:53 IST 2024
+$ pwd : shows the current location of the folder
+$ hostname : will show the computer's hostnamename
+$ ls : listout the files and directories
+
+$ uname: the type of system you're running
+$ uname -a : you can see the hostname,kernel release and kernel version
+
+$ date : will display the date (Mon Jul 29 14:29:25 IST 2024)
+$ date + : is a special format option for the date to display as per your convinience.
+$ date +'%d/%m/%y' : speacial date format to display : dd/mm/yy : 29/07/24
+$ date +'%A, %B %d, %y' : Monday, July 29, 24
+to know more about date formats then type $ date --help
+
+$ id
+uid=1000(mayur) gid=1000(mayur) groups=1000(mayur),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),116(netdev),119(docker)
+
+Here, the primary group of mayur is callled mayur, which represent by numeric userid:1000
+these names and numbers represents the mayur has the permission to access the computer resources.
+
+$ who -uH
+NAME     LINE         TIME             IDLE          PID COMMENT
+mayur    pts/1        2024-07-29 12:50 01:48         523
+
+information about your current login session by using who command.
+-u option says to add information about idle time and the
+process ID and -H asks that a header be printed
+
+########### Locating commands ######################
+
+$ echo $PATH : it will show you the environment variables of your system where all cmds are resided. Like in windows we stored the paths into the environment variable for executable files like Java environment or JDK path 
+
+output: 
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows
+
+$ type bash
+bash is /bin/bash
+The above command will show you the location of bash.
+
+Using locate, you can search any part of the system that is accessible to you (some
+fi les are only accessible to the root user). For example, if you wanted to fi nd the location of
+the chage command, you could type the following:
+$ locate chage
+
+The locate command looks all over your fi lesystem, not just in directories that
+contain commands.
+
+#########################################################################################
